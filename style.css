@@ -50,6 +50,31 @@
 
 .main
 {
+    position: relative;
     background-color: #333;
-    height: 500px;
+    height: 600px;
+    display: flex;
+}
+.main::before
+{
+    border-radius: 0 0 50% 50%;
+    transform: scaleX(1.5);
+}
+
+.description
+{
+    width: 50%;
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 30px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.description>p{
+}
+
+.main-img
+{
+    width: 50%;
 }
